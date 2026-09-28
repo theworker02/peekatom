@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/peekatom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Peek structured JSON atom payloads without a heavyweight toolkit.",
+  "bin": {
+    "peekatom": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/peekatom.git"
+  },
+  "homepage": "https://theworker02.github.io/peekatom/",
+  "keywords": [
+    "peek",
+    "atom",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
